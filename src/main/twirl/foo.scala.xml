@@ -1,0 +1,7 @@
+@import x.TwirlConstants
+@(name: String)
+<foo>
+<h1>Hello, @name</h1>
+<div>@TwirlConstants.CONST_STR</div>
+<div>@TwirlConstants.CONST_NUM</div>
+</foo>
